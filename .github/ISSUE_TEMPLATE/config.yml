@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or say hi (Discussions)
+    url: https://github.com/binkybell225/BluEmpress/discussions
+    about: For questions, ideas, and chat with other testers.
+  - name: Join the closed test (signup form)
+    url: https://docs.google.com/forms/d/e/1FAIpQLSe9xwqTplppsbXFboRZ43DdTWTdFVZUpScbXGt7jL6VBu_v5g/viewform
+    about: Step 1 of 3. Enter your email to be added automatically.
+  - name: Report a security problem (private)
+    url: https://github.com/binkybell225/BluEmpress/security/advisories/new
+    about: Please do not report security problems in public issues.

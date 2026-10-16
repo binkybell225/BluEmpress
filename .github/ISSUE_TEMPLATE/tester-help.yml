@@ -1,0 +1,41 @@
+name: 🙋 Tester signup help
+description: Stuck on signup, opt-in, or install? Ask here.
+title: "[Signup help] "
+labels: ["tester-help"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do NOT post your email address here. This page is public.**
+        The 3 steps: (1) signup form, (2) opt-in page, (3) install from Google Play and keep it for 14 days.
+  - type: dropdown
+    id: step
+    attributes:
+      label: Which step is the problem?
+      options:
+        - "Step 1: signup form"
+        - "Step 2: opt-in page"
+        - "Step 3: install from Google Play"
+        - "Keeping it installed for 14 days"
+        - "Data request (deletion or copy)"
+        - "Something else"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened?
+      description: Include any message you saw (for example "This app isn't available").
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone and Android version (optional)
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checks
+      options:
+        - label: I did not include my email or other private information.
+          required: true

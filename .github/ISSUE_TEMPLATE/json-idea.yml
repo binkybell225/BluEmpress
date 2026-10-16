@@ -1,0 +1,43 @@
+name: 💡 JSON improvement idea
+description: Suggest a change to the public data in /data (moods, BluRoom Check lines, FAQ, roadmap, tester guide).
+title: "[Data] "
+labels: ["data-idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas for the files in [`/data`](https://github.com/binkybell225/BluEmpress/tree/main/data) are welcome. The owner reviews everything and cannot promise to use every idea. By submitting you agree to the license in [CONTRIBUTING.md](https://github.com/binkybell225/BluEmpress/blob/main/CONTRIBUTING.md).
+  - type: dropdown
+    id: file
+    attributes:
+      label: Which file?
+      options:
+        - features-roadmap.json
+        - moods.json
+        - bluroom-check.json
+        - faq.json
+        - tester-guide.json
+        - Something new
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your suggestion
+      description: Show the exact text or JSON you would add or change.
+      placeholder: '{ "id": "bc-004", "text": "...", "status": "suggested" }'
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it better?
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checks
+      options:
+        - label: This is my own work (or I have the right to share it) and has no slurs, cursing, private people, or secrets.
+          required: true
+        - label: I agree to the contribution license in CONTRIBUTING.md.
+          required: true

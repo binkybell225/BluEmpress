@@ -1,0 +1,24 @@
+{
+  "$schema": "./schema/moods.schema.json",
+  "version": 1,
+  "updated": "2026-10-16",
+  "note": "Mood names and portrait labels used by BluEmpress. Each mood has a portrait in the app. 'bluroom' is the special BluRoom Check face.",
+  "moods": [
+    { "id": "regal",       "label": "Regal",       "portrait": "regal",       "vibe": "Warm, confident, the default queen." },
+    { "id": "playful",     "label": "Playful",     "portrait": "playful",     "vibe": "Lighter and fun, still classy." },
+    { "id": "confident",   "label": "Confident",   "portrait": "confident",   "vibe": "Assured and steady." },
+    { "id": "arrogant",    "label": "Arrogant",    "portrait": "arrogant",    "vibe": "Classy young-queen attitude." },
+    { "id": "sassy",       "label": "Sassy",       "portrait": "sassy",       "vibe": "Quick-witted and a little spicy." },
+    { "id": "calm",        "label": "Calm",        "portrait": "calm",        "vibe": "Soft, slow, and soothing." },
+    { "id": "mischievous", "label": "Mischievous", "portrait": "mischievous", "vibe": "Teasing and up to something." },
+    { "id": "focused",     "label": "Focused",     "portrait": "focused",     "vibe": "Concise and task-first." },
+    { "id": "bluroom",     "label": "BluRoom Check", "portrait": "bluroom",   "vibe": "Glowing blue eyes and crown; the sharpest sass, still classy." }
+  ],
+  "chatModes": [
+    { "id": "regal",   "label": "Regal",   "summary": "Warm, confident, default." },
+    { "id": "focused", "label": "Focused", "summary": "Concise and task-first." },
+    { "id": "playful", "label": "Playful", "summary": "Lighter, still classy." },
+    { "id": "guarded", "label": "Guarded", "summary": "Shorter, with clear boundaries." },
+    { "id": "bluroom", "label": "BluRoom", "summary": "Sharper sass, still classy." }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "./schema/faq.schema.json",
+  "version": 1,
+  "updated": "2026-10-16",
+  "items": [
+    { "id": "what-is-it", "question": "What is BluEmpress?", "answer": "BluEmpress is an Android app where you chat with a fictional AI queen character. She has moods, portraits, voice, memory you control, and a Studio desk for tasks and notes." },
+    { "id": "free", "question": "Is it free to test?", "answer": "Yes. Testing costs nothing and no payment or reward is promised." },
+    { "id": "who-can-join", "question": "Who can join?", "answer": "Adults 18 and older with an Android device and a Google account." },
+    { "id": "how-join", "question": "How do I join the closed test?", "answer": "Sign up with your email at the signup form, opt in on the Google Play testing page, then install from Google Play. See the tester guide." },
+    { "id": "why-14-days", "question": "Why 14 days?", "answer": "Google Play asks closed-test apps to be tested by real people for 14 days in a row. Keeping the app installed and staying opted in helps that requirement." },
+    { "id": "email-use", "question": "What happens to my email?", "answer": "It is used only to add you to the closed test and send the install link. It is not sold. You can ask for deletion at any time. See PRIVACY.md." },
+    { "id": "ios", "question": "Is there an iPhone version?", "answer": "Not an App Store app. iPhone users can open the web version in Safari and use Add to Home Screen." },
+    { "id": "real-person", "question": "Is BluEmpress a real person?", "answer": "No. She is a fictional AI character and not a therapist, doctor, lawyer, or emergency contact." },
+    { "id": "report-bug", "question": "How do I report a bug?", "answer": "Open a Bug report issue in this repository. Include your phone model, Android version, and what happened." },
+    { "id": "source-code", "question": "Is the app open source?", "answer": "No. The app and brand are all rights reserved. Only the JSON files in /data are open for community suggestions under CC BY-NC-SA 4.0." },
+    { "id": "contribute", "question": "Can I help improve it?", "answer": "Yes. Suggest improvements to the JSON data through issues or pull requests. The owner reviews everything and cannot promise to merge every suggestion." }
+  ]
+}

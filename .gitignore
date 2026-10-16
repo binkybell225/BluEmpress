@@ -1,0 +1,31 @@
+# Secrets and keys must never be committed
+.env
+.env.*
+*.pem
+*.key
+*.keystore
+*.jks
+*.p12
+*.pfx
+google-services.json
+service-account*.json
+credentials*.json
+secrets*
+
+# App source and builds are not part of this public repo
+android/
+node_modules/
+*.apk
+*.aab
+*.tgz
+*.zip
+
+# Local files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+.vscode/
+.idea/
+__pycache__/
+.venv/

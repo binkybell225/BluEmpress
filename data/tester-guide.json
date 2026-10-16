@@ -1,0 +1,29 @@
+{
+  "$schema": "./schema/tester-guide.schema.json",
+  "version": 1,
+  "updated": "2026-10-16",
+  "title": "How to join the BluEmpress closed test",
+  "requirements": {
+    "device": "An Android phone or tablet signed in to Google Play",
+    "age": "18 or older",
+    "account": "A Google account (the email you enter must be the one you use on Google Play)",
+    "commitment": "Keep the app installed and stay opted in for 14 days in a row"
+  },
+  "steps": [
+    { "step": 1, "title": "Sign up", "detail": "Enter your email at the signup form. You are added to the tester list automatically.", "url": "https://docs.google.com/forms/d/e/1FAIpQLSe9xwqTplppsbXFboRZ43DdTWTdFVZUpScbXGt7jL6VBu_v5g/viewform" },
+    { "step": 2, "title": "Opt in", "detail": "Open the opt-in page signed in with the same Google account and tap Become a tester.", "url": "https://play.google.com/apps/testing/com.bluempressuniverse.app" },
+    { "step": 3, "title": "Install and keep it", "detail": "Install BluEmpress from Google Play. Keep it installed and stay opted in for 14 days. Open it now and then.", "url": "https://play.google.com/store/apps/details?id=com.bluempressuniverse.app" }
+  ],
+  "feedbackWanted": [
+    "Anything that crashes, freezes, or looks broken",
+    "Replies that feel wrong, off-tone, or unsafe",
+    "Moods, portraits, and BluRoom Check: do they feel right?",
+    "Voice: does speaking and read-aloud work on your phone?",
+    "Memory and Studio desk: confusing or useful?",
+    "Your phone model and Android version when reporting a bug"
+  ],
+  "notes": [
+    "Testing is voluntary. No payment, reward, or compensation is promised.",
+    "Never share passwords or private information in a report."
+  ]
+}

@@ -1,0 +1,93 @@
+BluEmpress — License and Rights Notice
+Copyright (c) 2026 RnBKat and BluEmpressUni. All rights reserved.
+
+This repository contains two kinds of material. They have different rules.
+
+======================================================================
+PART 1 — THE APP, THE BRAND, AND EVERYTHING ELSE (ALL RIGHTS RESERVED)
+======================================================================
+
+This part covers everything in this repository EXCEPT the files described in
+Part 2. In particular it covers:
+
+  - the BluEmpress / BluEmpressUniverse Android app (package
+    com.bluempressuniverse.app), its code, design, and behavior;
+  - the names "BluEmpress", "BluEmpressUniverse", "BluRoom", "BluRoom Check",
+    "BluEmpressUni" and "RnBKat", and the logos and crown icon;
+  - the BluEmpress character, her portraits, mood art, and voice;
+  - the screenshots, hero images, and all other files in /assets;
+  - the text of the README, the landing page (index.html), and the
+    documentation files.
+
+No license, express or implied, is granted to you for this material except
+the limited permissions below. All other rights are reserved.
+
+You MAY:
+  1. Read and view this repository and the landing page.
+  2. Install and use the app, if you were invited to the closed test, for
+     personal, non-commercial play, testing, and experimentation, under the
+     TERMS.md and the app's own Terms and Privacy Policy.
+  3. Quote short excerpts of the README with a link back to this repository
+     (for example in a review or a news article).
+  4. Fork this repository on GitHub, as GitHub's Terms of Service allow, for
+     the sole purpose of proposing changes back through a pull request.
+
+You MAY NOT, without written permission from the owner:
+  1. Copy, redistribute, mirror, repackage, sideload, or resell the app.
+  2. Decompile, reverse engineer, or extract assets or data from the app
+     except where the law gives you that right regardless of this notice.
+  3. Republish, rebrand, or distribute the app, the character, or any of the
+     material in Part 1 under another name or as your own.
+  4. Use the app, the character, or the brand for any commercial purpose.
+  5. Use the BluEmpress character, portraits, or voice to train machine
+     learning models or build lookalike products.
+  6. Suggest that the owner endorses you, your product, or your content.
+
+======================================================================
+PART 2 — THE PUBLIC DATA FOLDER (CC BY-NC-SA 4.0)
+======================================================================
+
+The JSON data files in the /data folder:
+
+    data/features-roadmap.json
+    data/moods.json
+    data/bluroom-check.json
+    data/faq.json
+    data/tester-guide.json
+
+and the JSON Schema files in /data/schema are licensed under the
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+license (CC BY-NC-SA 4.0). The full legal text is in
+data/LICENSE-CC-BY-NC-SA-4.0.txt and online at
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+In plain words, you may share and adapt that data if you:
+  - give credit ("BluEmpress data by RnBKat with BluEmpressUni"),
+  - link to the license and say if you changed anything,
+  - do NOT use it commercially, and
+  - share your changes under the same license.
+
+This license covers the data text only. It does NOT grant any rights in
+the app, the names and logos, the character, or the images (see Part 1),
+even where the data mentions them. Trademarks and the character remain
+reserved. The scripts in /scripts are part of Part 1 and are provided only
+to check the data.
+
+======================================================================
+CONTRIBUTIONS
+======================================================================
+
+If you send a contribution (an issue, a pull request, a suggestion), the
+terms in CONTRIBUTING.md apply, including the license you grant to the owner.
+
+======================================================================
+NO WARRANTY
+======================================================================
+
+THE APP AND ALL MATERIAL ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, AND NON-INFRINGEMENT. TO THE EXTENT THE LAW ALLOWS, THE OWNER IS NOT
+LIABLE FOR ANY CLAIM OR DAMAGES ARISING FROM THEIR USE. See DISCLAIMER.md.
+
+This notice is a plain-language rights statement for a public beta. It is not
+legal advice.

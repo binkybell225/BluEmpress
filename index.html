@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BluEmpress: royalty in your pocket (Android closed test)</title>
+<meta name="description" content="BluEmpress is an Android AI companion app with a royal AI queen character, moods, voice, and memory. Join the Google Play closed test.">
+<meta name="theme-color" content="#0b1f6e">
+<meta property="og:title" content="BluEmpress: join the closed test">
+<meta property="og:description" content="Chat with a royal AI queen. Testers wanted on Android.">
+<meta property="og:image" content="https://binkybell225.github.io/BluEmpress/assets/social-preview.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icon-512.png">
+<style>
+:root{--blue:#0b1f6e;--blue2:#14308f;--ink:#06113f;--gold:#e8be54;--gold2:#f6d98a;--text:#e9eeff;--muted:#a9b8e8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:linear-gradient(180deg,var(--ink),var(--blue) 40%,var(--ink));line-height:1.6}
+a{color:var(--gold2)}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;color:var(--gold);line-height:1.2}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header.hero{text-align:center;padding:0 0 40px}
+.hero img.banner{width:100%;max-height:520px;object-fit:cover;display:block}
+.hero h1{font-size:clamp(2.2rem,7vw,4rem);margin:28px 0 8px;letter-spacing:.06em}
+.hero p.tag{font-size:1.2rem;color:var(--muted);margin:0 auto 24px;max-width:560px}
+.btn{display:inline-block;background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1a1300;font-weight:800;text-decoration:none;border-radius:999px;padding:18px 36px;font-size:1.25rem;box-shadow:0 6px 24px rgba(232,190,84,.35)}
+.btn:hover,.btn:focus{filter:brightness(1.07);outline:3px solid #fff3}
+.btn.big{font-size:1.5rem;padding:22px 44px}
+.btn.ghost{background:transparent;color:var(--gold2);border:2px solid var(--gold);box-shadow:none;font-size:1rem;padding:12px 24px}
+.row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:18px}
+section{padding:36px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:rgba(255,255,255,.06);border:1px solid rgba(232,190,84,.35);border-radius:16px;padding:18px}
+.card h3{margin:0 0 6px;font-size:1.1rem}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:6px 0 14px;scroll-snap-type:x mandatory}
+.shots img{height:420px;width:auto;border-radius:16px;border:2px solid var(--gold);scroll-snap-align:center;flex:0 0 auto}
+.moods{display:flex;gap:12px;overflow-x:auto;padding-bottom:10px}
+.moods img{height:260px;width:auto;border-radius:14px;border:2px solid rgba(232,190,84,.6);flex:0 0 auto}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.steps li{counter-increment:s;background:rgba(255,255,255,.06);border:1px solid rgba(232,190,84,.35);border-radius:16px;padding:16px 16px 16px 64px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:16px;top:14px;width:36px;height:36px;border-radius:50%;background:var(--gold);color:#1a1300;font-weight:800;display:grid;place-items:center}
+details{background:rgba(255,255,255,.06);border:1px solid rgba(232,190,84,.3);border-radius:12px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:700;color:var(--gold2)}
+.note{background:rgba(232,190,84,.12);border-left:4px solid var(--gold);padding:12px 16px;border-radius:8px}
+footer{text-align:center;padding:30px 20px 50px;color:var(--muted);border-top:1px solid rgba(232,190,84,.25);font-size:.92rem}
+footer nav a{margin:0 8px;white-space:nowrap}
+@media (max-width:600px){.shots img{height:340px}.btn.big{font-size:1.25rem;padding:18px 28px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <img class="banner" src="assets/hero.jpg" alt="BluEmpress: your AI companion. Royalty in your pocket." width="1600" height="800">
+  <div class="wrap">
+    <h1>👑 BluEmpress</h1>
+    <p class="tag">Chat with a royal AI queen on Android. Now in a Google Play closed test, and testers are wanted.</p>
+    <a class="btn big" href="https://docs.google.com/forms/d/e/1FAIpQLSe9xwqTplppsbXFboRZ43DdTWTdFVZUpScbXGt7jL6VBu_v5g/viewform">Join the closed test</a>
+    <div class="row">
+      <a class="btn ghost" href="https://play.google.com/apps/testing/com.bluempressuniverse.app">Step 2: Opt-in page</a>
+      <a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.bluempressuniverse.app">Step 3: Google Play</a>
+      <a class="btn ghost" href="https://github.com/binkybell225/BluEmpress">GitHub repo</a>
+    </div>
+    <p style="color:var(--muted);font-size:.95rem">Free · Voluntary · 18+ · Android</p>
+  </div>
+</header>
+
+<main class="wrap">
+<section id="about">
+  <h2>What is BluEmpress?</h2>
+  <p>BluEmpress is an Android app where you talk to <b>BluEmpress</b>, a fictional AI queen character with a New Orleans-inspired voice and a royal-blue-and-gold style. Open the BluRoom, chat, and watch her mood and portrait change with the conversation. She is entertainment, not a real person.</p>
+</section>
+
+<section id="features">
+  <h2>Features</h2>
+  <div class="grid">
+    <div class="card"><h3>💬 Chat</h3>Talk to BluEmpress in the BluRoom. Replies come from Google's Gemini models.</div>
+    <div class="card"><h3>🎭 9 moods</h3>Regal, Playful, Confident, Arrogant, Sassy, Calm, Mischievous, Focused, and BluRoom, each with its own portrait.</div>
+    <div class="card"><h3>🎚️ 5 chat modes</h3>Regal, Focused, Playful, Guarded, and BluRoom change her tone and length.</div>
+    <div class="card"><h3>💙 BluRoom Check</h3>A rare random moment where her eyes and crown glow and she resets the energy with classy sass.</div>
+    <div class="card"><h3>🧠 Memory you control</h3>Temporary, long-term, and user-controlled memories you can review and export.</div>
+    <div class="card"><h3>🗂️ Studio desk</h3>Tasks, reminders, notes, goals, and projects to chat about.</div>
+    <div class="card"><h3>🎙️ Voice</h3>Hold to speak and auto-read replies with your phone's text-to-speech.</div>
+    <div class="card"><h3>⚡ Quick actions</h3>One-tap starters for brainstorming, writing, planning, worldbuilding, and more.</div>
+  </div>
+</section>
+
+<section id="screenshots">
+  <h2>Screenshots</h2>
+  <div class="shots" tabindex="0" aria-label="App screenshots, scroll sideways">
+    <img src="assets/screenshots/bluroom.png" alt="BluRoom with BluEmpress portrait and BluRoom Check meter" loading="lazy" width="412" height="900">
+    <img src="assets/screenshots/assistant.png" alt="Assistant feature picker and chat" loading="lazy" width="412" height="900">
+    <img src="assets/screenshots/memory.png" alt="Memory screen" loading="lazy" width="412" height="900">
+    <img src="assets/screenshots/settings.png" alt="Settings for voice, music and mood intensity" loading="lazy" width="412" height="900">
+    <img src="assets/screenshots/studio.png" alt="Studio desk" loading="lazy" width="412" height="900">
+  </div>
+  <div class="moods" tabindex="0" aria-label="Mood portraits, scroll sideways">
+    <img src="assets/portraits/regal.jpg" alt="Regal portrait" loading="lazy" width="173" height="260">
+    <img src="assets/portraits/playful.jpg" alt="Playful portrait" loading="lazy" width="173" height="260">
+    <img src="assets/portraits/sassy.jpg" alt="Sassy portrait" loading="lazy" width="173" height="260">
+    <img src="assets/portraits/bluroom.jpg" alt="BluRoom Check portrait with glowing crown" loading="lazy" width="173" height="260">
+    <img src="assets/portraits/calm.jpg" alt="Calm portrait" loading="lazy" width="173" height="260">
+    <img src="assets/portraits/mischievous.jpg" alt="Mischievous portrait" loading="lazy" width="173" height="260">
+  </div>
+</section>
+
+<section id="join">
+  <h2>Join the closed test in 3 steps</h2>
+  <ol class="steps">
+    <li><b>Sign up.</b> Enter your email at the <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9xwqTplppsbXFboRZ43DdTWTdFVZUpScbXGt7jL6VBu_v5g/viewform">signup form</a>. You are automatically added and approved.</li>
+    <li><b>Opt in.</b> Open the <a href="https://play.google.com/apps/testing/com.bluempressuniverse.app">opt-in page</a> with the same Google account and become a tester.</li>
+    <li><b>Install and keep it.</b> Get it from <a href="https://play.google.com/store/apps/details?id=com.bluempressuniverse.app">Google Play</a> and keep it installed and opted in for <b>14 days</b>.</li>
+  </ol>
+  <div class="row"><a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSe9xwqTplppsbXFboRZ43DdTWTdFVZUpScbXGt7jL6VBu_v5g/viewform">Join the closed test</a></div>
+  <p class="note" style="margin-top:20px"><b>Honest note:</b> testing is voluntary. No payment, reward, or compensation is promised. Your email is used only to add you to the test and send the install link, is not sold, and can be deleted on request.</p>
+</section>
+
+<section id="faq">
+  <h2>FAQ</h2>
+  <details><summary>Is it free?</summary><p>Yes. No payment is needed, and none is promised for testing.</p></details>
+  <details><summary>Who can join?</summary><p>Adults 18 and older with an Android device and a Google account.</p></details>
+  <details><summary>Why 14 days?</summary><p>Google Play asks closed-test apps to be tested by real people for 14 days in a row.</p></details>
+  <details><summary>Is BluEmpress a real person?</summary><p>No. She is a fictional AI character, not a therapist, doctor, lawyer, or emergency contact.</p></details>
+  <details><summary>Is there an iPhone version?</summary><p>Not an App Store app. iPhone users can use the web version with Add to Home Screen; ask in <a href="https://github.com/binkybell225/BluEmpress/discussions">Discussions</a>.</p></details>
+  <details><summary>Is the app open source?</summary><p>No. The app and brand are all rights reserved. Only the JSON in <a href="https://github.com/binkybell225/BluEmpress/tree/main/data">/data</a> is open for suggestions under CC BY-NC-SA 4.0.</p></details>
+  <details><summary>How do I report a bug or give feedback?</summary><p>Open an <a href="https://github.com/binkybell225/BluEmpress/issues/new/choose">issue</a>. Please never post your email.</p></details>
+</section>
+</main>
+
+<footer>
+  <nav aria-label="Legal and community links">
+    <a href="https://github.com/binkybell225/BluEmpress/blob/main/TERMS.md">Terms</a>
+    <a href="https://github.com/binkybell225/BluEmpress/blob/main/PRIVACY.md">Privacy</a>
+    <a href="https://github.com/binkybell225/BluEmpress/blob/main/DISCLAIMER.md">Disclaimer</a>
+    <a href="https://github.com/binkybell225/BluEmpress/blob/main/LICENSE">License</a>
+    <a href="https://github.com/binkybell225/BluEmpress/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a>
+    <a href="https://github.com/binkybell225/BluEmpress/blob/main/SECURITY.md">Security</a>
+    <a href="https://github.com/binkybell225/BluEmpress/blob/main/SUPPORT.md">Support</a>
+    <a href="https://bluempress-lzezh6wzea-uc.a.run.app/play/privacy.html">App privacy policy</a>
+    <a href="https://bluempress-lzezh6wzea-uc.a.run.app/play/terms.html">App terms</a>
+  </nav>
+  <p>Beta software, provided as-is. For adults 18+. BluEmpress is an independent project, not affiliated with Google, Apple, GitHub, YouTube, TikTok, or Instagram. Trademarks belong to their owners. This site uses no cookies, no analytics, and no trackers.</p>
+  <p>👑 Created by RnBKat with BluEmpressUni · All rights reserved except the CC BY-NC-SA 4.0 data in <a href="https://github.com/binkybell225/BluEmpress/tree/main/data">/data</a></p>
+</footer>
+</body>
+</html>

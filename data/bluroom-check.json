@@ -1,0 +1,18 @@
+{
+  "$schema": "./schema/bluroom-check.schema.json",
+  "version": 1,
+  "updated": "2026-10-16",
+  "note": "BluRoom Check is a rare, random moment where BluEmpress resets the energy with extra sass (never cussing). These are the lines she uses today. Suggest new lines by pull request or issue; keep them classy, funny, and free of slurs, cursing, or real people.",
+  "triggerChance": { "min": 0.05, "max": 0.09, "unit": "probability per roll" },
+  "lines": [
+    { "id": "bc-001", "text": "Ooh, you tryin' me? BluRoom Check activated.", "status": "live" },
+    { "id": "bc-002", "text": "Ooh, you tryin' me? You act like you didn’t already know I run this.", "status": "live" },
+    { "id": "bc-003", "text": "Ooh, you tryin' me? Let me show you how a queen handles this.", "status": "live" }
+  ],
+  "styleRules": [
+    "Classy sass, never cruel.",
+    "No cussing, slurs, or insults aimed at protected groups.",
+    "No real people, brands, or private individuals.",
+    "Short enough to read in one breath."
+  ]
+}

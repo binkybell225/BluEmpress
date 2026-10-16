@@ -1,0 +1,25 @@
+{
+  "$schema": "./schema/features-roadmap.schema.json",
+  "version": 1,
+  "updated": "2026-10-16",
+  "app": { "name": "BluEmpress", "package": "com.bluempressuniverse.app", "platform": "Android (Google Play closed test)", "versionName": "8.0.0" },
+  "disclaimer": "Status reflects what exists in the beta today. 'idea' means nobody has promised it. Suggestions are welcome but do not guarantee a feature will ship.",
+  "statuses": ["live", "testing", "idea"],
+  "features": [
+    { "id": "chat", "name": "Chat with BluEmpress", "status": "live", "summary": "Talk to an AI queen character in the BluRoom. Replies come from Google's Gemini models." },
+    { "id": "moods", "name": "Moods and portraits", "status": "live", "summary": "Nine moods, each with its own portrait. The face changes with the tone of the conversation." },
+    { "id": "chat-modes", "name": "Chat modes", "status": "live", "summary": "Regal, Focused, Playful, Guarded, and BluRoom modes change her tone and length." },
+    { "id": "bluroom-check", "name": "BluRoom Check", "status": "live", "summary": "A rare random moment where her eyes and crown glow and she resets the energy with extra sass." },
+    { "id": "quick-actions", "name": "Quick actions", "status": "live", "summary": "One-tap starters: brainstorm, write, plan, worldbuild, goals, script, app plan, design, and content." },
+    { "id": "memory", "name": "Memory you control", "status": "live", "summary": "Temporary, long-term, and user-controlled memories you can add, review, and export." },
+    { "id": "studio", "name": "Studio desk", "status": "live", "summary": "Tasks, reminders, notes, goals, and projects you can chat with her about." },
+    { "id": "voice", "name": "Voice", "status": "live", "summary": "Hold to speak and auto-read replies. Android uses the phone's TextToSpeech; browsers use Web Speech." },
+    { "id": "audio-settings", "name": "Music, sound, and mood intensity", "status": "live", "summary": "Background music, sound effects, volume, speed, particles, theme, and sliders for mood and BluRoom Check intensity." },
+    { "id": "bridge", "name": "Bridge", "status": "live", "summary": "Bring a name into the room on purpose and remove it again when you are done." },
+    { "id": "report", "name": "Report an AI reply", "status": "live", "summary": "Tap Report on any reply to flag it for review." },
+    { "id": "iphone-web", "name": "iPhone and web version", "status": "live", "summary": "Open the web app in Safari and use Add to Home Screen. Not an App Store app." },
+    { "id": "premium-voices", "name": "Premium voice options", "status": "idea", "summary": "Optional higher-quality voices. Not available today." },
+    { "id": "more-moods", "name": "More moods and portraits", "status": "idea", "summary": "Community suggestions for new moods are welcome in data/moods.json." },
+    { "id": "more-bluroom-lines", "name": "More BluRoom Check lines", "status": "idea", "summary": "A bigger pool of classy sass lines." }
+  ]
+}
